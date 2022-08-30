@@ -116,7 +116,8 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      floatingActionButton: Row(children: [
+      floatingActionButton:
+          Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
         FloatingActionButton(
           onPressed: _decrementCounter,
           tooltip: 'Decrement',
